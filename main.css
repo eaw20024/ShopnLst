@@ -1,0 +1,341 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************************ 
+		Universal Selector 
+*************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	-webkit-appearance: none;
+}
+
+/************************************ 
+			Top Header
+*************************************/
+
+#container {
+	padding-top: 2px;
+	padding-bottom: 30px;
+	display: block;
+	background-color: #D1E0E9;
+}
+
+#container h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 95px;
+	margin-bottom: 20px;
+	margin-top: -35px;
+}
+
+hr {
+	background-color: navy;
+	border: 2px inset;
+	border-color: white;
+	border-radius: 3px;
+	height: 6px;
+	margin: 30px auto 10px auto;
+	width: 31.8125%;
+}
+
+#logo {
+	height: 250px;
+	width: auto;
+	margin-left: 43.5%;
+}
+
+/************************************ 
+	  Shopping List & Directions 
+*************************************/
+ 
+.dashed {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 3px dashed black;
+	border-radius: 25px;
+    background: #fff;
+    display: table;
+    margin: 17px auto;
+    line-height: 24px;
+    padding: 7px 20px; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dashed1 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 3px dashed black;
+	border-radius: 25px;
+    background: #fff;
+    display: table;
+    margin: 18px auto;
+    line-height: 24px;
+    padding: 7px 20px; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dashed3 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 3px dashed black;
+	border-radius: 25px;
+    background: #fff;
+    display: table;
+    margin: 18px auto;
+    line-height: 24px;
+    padding: 7px 20px; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#input-form {
+	height: 50px;
+	text-align: center;
+	margin-left: 31%;
+	display: absolute;
+	border: 3px inset navy;
+	margin-top: 20px;
+	border-radius: 25px;
+}
+
+#list {
+	height: 260px;
+}
+
+.newlistitem {
+
+	border: 2px inset navy;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	border-radius: 25px;
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	margin: 4px 4px;
+}
+
+.crossed-item {
+	text-decoration: line-through;
+	color: navy;
+	border: 2px inset navy;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	border-radius: 25px;
+	width: 100%;
+	height: 30x;
+	display: inline-block;
+}
+
+.item {
+	top: 100px;
+}	
+
+.item-list {
+	margin: 0 auto;
+	width: 400px;
+}
+
+/************************************ 
+				Footer
+*************************************/
+
+.footing {
+	height: 80px;
+	margin-top: 12px;
+	background-color: #D1E0E9;
+}
+
+.footing h3 {
+	text-align: center;
+	padding-top: 28px;
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+/************************************ 
+			  Button 
+*************************************/
+
+.button_submit {
+	-moz-box-shadow:inset 6px 2px 8px 1px #bee2f9;
+	-webkit-box-shadow:inset 6px 2px 8px 1px #bee2f9;
+	box-shadow:inset 6px 2px 8px 1px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-webkit-border-top-left-radius:25px;
+	-moz-border-radius-topleft:25px;
+	border-top-left-radius:25px;
+	-webkit-border-top-right-radius:25px;
+	-moz-border-radius-topright:25px;
+	border-top-right-radius:25px;
+	-webkit-border-bottom-right-radius:25px;
+	-moz-border-radius-bottomright:25px;
+	border-bottom-right-radius:25px;
+	-webkit-border-bottom-left-radius:25px;
+	-moz-border-radius-bottomleft:25px;
+	border-bottom-left-radius:25px;
+	text-indent:0px;
+	border:2px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family: 'Lobster', cursive;
+	font-size:19px;
+	font-weight:bold;
+	font-style:normal;
+	height:48px;
+	line-height:48px;
+	width:151px;
+	margin-left: 43.6875%;
+	margin-bottom: 10px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-2px 3px 0px #7cacde;
+}
+
+.button_submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+	background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#468ccf;
+}
+
+.button_submit:active {
+	position:relative;
+	top:1px;
+} 
+
+/************************************
+			Media Queries 
+*************************************/
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+
+	#logo {
+		height: 250px;
+		width: auto;
+		margin-left: 24.5%;
+	}
+
+	#container h1 {
+		font-size: 77px;
+	}
+
+	hr {
+		width: 75%;
+	}
+
+	#input-form {
+		height: 50px;
+		text-align: center;
+		margin-left: 10%;
+		border: 3px inset navy;
+		margin-top: 20px;
+		border-radius: 25px;
+		width: 81%;
+	}
+
+	.newlistitem {
+		width: 76%;
+	}
+
+	.button_submit {
+		margin-left: 27%;
+	}
+
+	.footing h3 {
+		padding-top: 13px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+
+	#logo {
+			height: 250px;
+			width: auto;
+			margin-left: 38.5%;
+	}
+
+	#input-form {
+			margin-left: 20.125%;
+	}
+
+	.button_submit {
+			margin-left: 40.8125%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
